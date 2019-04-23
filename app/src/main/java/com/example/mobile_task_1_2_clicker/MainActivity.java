@@ -36,13 +36,13 @@ public class MainActivity extends AppCompatActivity {
                 score ++;
                 if (Math.abs(score)<10 & 5>Math.abs(score) & Math.abs(score)>1 || Math.abs(score)<100 & Math.abs(score)>15 & 5>(Math.abs(score)%10) & (Math.abs(score)%10)>1)
                 {
-                    st="а";
+                    st=getString(R.string.a1);
                 }
                 else
                 {
                     st=" ";
                 }
-                String s = "Вы нажали на кнопку: " + score + " раз" + st;
+                String s = getString(R.string.qq) + score + getString(R.string.qe) + st;
                 mainText.setText(s.toCharArray(),0, s.length());
             }
         };
@@ -55,13 +55,13 @@ public class MainActivity extends AppCompatActivity {
                 score --;
                 if (Math.abs(score)<10 & 5>Math.abs(score) & Math.abs(score)>1 || Math.abs(score)<100 & Math.abs(score)>15 & 5>(Math.abs(score)%10) & (Math.abs(score)%10)>1)
                 {
-                    st="а";
+                    st=getString(R.string.a);
                 }
                 else
                 {
                     st=" ";
                 }
-                String s = "Вы нажали на кнопку: " + score + " раз" + st;
+                String s = getString(R.string.qrr) + score + getString(R.string.qy) + st;
                 mainText.setText(s.toCharArray(),0, s.length());
             }
         };
@@ -74,13 +74,13 @@ public class MainActivity extends AppCompatActivity {
                 score =0;
                 if (Math.abs(score)<10 & 5>Math.abs(score) & Math.abs(score)>1 || Math.abs(score)<100 & Math.abs(score)>15 & 5>(Math.abs(score)%10) & (Math.abs(score)%10)>1)
                 {
-                    st="а";
+                    st=getString(R.string.aa1);
                 }
                 else
                 {
                     st=" ";
                 }
-                String s = "Вы нажали на кнопку: " + score + " раз" + st;
+                String s = getString(R.string.aa) + score + getString(R.string.as) + st;
                 mainText.setText(s.toCharArray(),0, s.length());
             }
         };

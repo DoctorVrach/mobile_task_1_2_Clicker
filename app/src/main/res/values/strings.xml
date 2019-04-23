@@ -3,4 +3,15 @@
     <string name="click_me">Нажми меня</string>
     <string name="Button2">Меня тоже нажми!</string>
     <string name="Sbros">Сбросить</string>
+    <string name="_01">Вы нажали на кнопку: 0 раз</string>
+    <string name="todo">TODO</string>
+    <string name="qq">Вы нажали на кнопку:</string>
+    <string name="qe">раз</string>
+    <string name="qrr">Вы нажали на кнопку:</string>
+    <string name="qy">раз</string>
+    <string name="aa">Вы нажали на кнопку:</string>
+    <string name="as">раз</string>
+    <string name="a">а</string>
+    <string name="a1">а</string>
+    <string name="aa1">а</string>
 </resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">mobile_task_1_2_Clicker</string>
+    <string name="click_me">Click me</string>
+    <string name="Button2">lick me too!</string>
+    <string name="Sbros">Sbrosit</string>
+    <string name="_01">Pressed: 0 times</string>
+    <string name="todo">TODO</string>
+    <string name="qq">Pressed:</string>
+    <string name="qe">times</string>
+    <string name="qrr">Pressed:</string>
+    <string name="qy">times</string>
+    <string name="aa">Pressed:</string>
+    <string name="as">times</string>
+    <string name="a"> </string>
+    <string name="a1"> </string>
+    <string name="aa1"> </string>
+</resources>

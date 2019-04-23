@@ -19,7 +19,7 @@
             android:id="@+id/mainText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Вы нажали на кнопку: 0 раз"/>
+            android:text="@string/_01"/>
 
         <Button
             android:id="@+id/button"
@@ -47,7 +47,8 @@
         android:layout_height="wrap_content"
         app:srcCompat="@mipmap/ic_launcher"
         tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="479dp" />
+        tools:layout_editor_absoluteY="479dp"
+            android:contentDescription="@string/todo" />
     </LinearLayout>
 
 
